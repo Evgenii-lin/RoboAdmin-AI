@@ -6,14 +6,14 @@ RoboAdmin-AI is a local multi-agent AI workbench for IT operations. It runs enti
 Built with PySide6 + smolagents + Ollama.
 
 ##System engineering/administration
-test_apache.png
+![System engineering](test_apache.png)
 
 ##Network Engineering
-test_network.png
+![Network engineering](test_network.png)
 
 ##DBA or SQL queries
-test_database.png
-test_sql_query.png
+![DBA analysis](test_database.png)
+![SQL Queries](test_sql_query.png)
 
 Recommended model - Qwen2.5:14b or above. Install Ollama from official website. 
 
