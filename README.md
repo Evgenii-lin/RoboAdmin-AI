@@ -5,6 +5,27 @@
 RoboAdmin-AI is a local multi-agent AI workbench for IT operations. It runs entirely on your machine — no cloud, no API keys, no data leaving your network.
 Built with PySide6 + smolagents + Ollama.
 
+To install:
+
+# Windows
+make folder RoboAdmin (for Example)
+git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
+cd RoboAdmin
+python-3.12 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+
+# Linux / macOS
+make folder RoboAdmin (for Example) 
+git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
+cd RoboAdmin
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python main.py
+
+
 ##System engineering/administration
 ![System engineering](test_apache.png)
 
