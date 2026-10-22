@@ -1,0 +1,15 @@
+# RoboAdmin-AI — Python 3.11/3.12
+# Core GUI
+PySide6>=6.6
+
+# Agent framework (CodeAgent, ToolCallingAgent, @tool decorator)
+smolagents>=1.9
+
+# Backend for smolagents.LiteLLMModel (talking to local Ollama)
+litellm>=1.60
+
+# HTTP client: Ollama /api/tags, Batfish REST API, test_endpoint
+requests>=2.31
+
+# PDF text extraction for the Upload button (lazy-imported in tools_files.py)
+pypdf>=4.0
