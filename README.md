@@ -8,6 +8,11 @@ Built with PySide6 + smolagents + Ollama.
 To install:
 
 # Windows
+
+Download .exe file:
+https://github.com/Evgenii-lin/RoboAdmin-AI/releases
+
+via CMD:
 make folder RoboAdmin (for Example)
 git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
 cd RoboAdmin
@@ -17,6 +22,7 @@ pip install -r requirements.txt
 python main.py
 
 # Linux / macOS
+bash:
 make folder RoboAdmin (for Example) 
 git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
 cd RoboAdmin
