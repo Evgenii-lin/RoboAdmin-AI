@@ -12,24 +12,26 @@ To install:
 Download .exe file:
 https://github.com/Evgenii-lin/RoboAdmin-AI/releases
 
-via CMD:
-1. make folder RoboAdmin (for Example)
-2. git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
-3. cd RoboAdmin
-4. python-3.12 -m venv .venv
-5. .venv\Scripts\activate
-6. pip install -r requirements.txt
-7. python main.py
+'''cmd
+make folder RoboAdmin (for Example)
+git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
+cd RoboAdmin
+python-3.12 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+'''
 
 # Linux / macOS
-bash:
-1. make folder RoboAdmin (for Example) 
-2. git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
-3. cd RoboAdmin
-4. python3.12 -m venv .venv
-5. source .venv/bin/activate
-6. pip install -r requirements.txt
-7. python main.py
+'''bash
+make folder RoboAdmin (for Example) 
+git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
+cd RoboAdmin
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python main.py
+'''
 
 
 ##System engineering/administration
@@ -61,7 +63,7 @@ Server config:
 
 3. Database analysis or sql queries:
 3.1 Analyze the provided test_db.sql PostgreSQL script and list all tables defined inside it. 
-3.2 Requiremetns: 
+3.2 Requirements: 
 1. For each table, provide: -It's exact name. - A brief, 1-sentence description of its purpose in the buisness logic.
 2. Identify and highlight any indexes created in the script.
 3. Present your findings in a highly readable markdown format with tables or clear bullet points.
