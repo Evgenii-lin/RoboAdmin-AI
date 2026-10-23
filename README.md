@@ -54,23 +54,31 @@ Three specialised agents collaborate under a manager:
 
 Some examples how to use:
 
-Server config:
-1. Generate a production-ready, secure Apache HTTP Server configuration file based on the parameters below.
+1. Server config:
+```
+Generate a production-ready, secure Apache HTTP Server configuration file based on the parameters below.
+```
 
 2. Network config based on a file(if exists):
-2.1 Analyze the provided core_switch.txt. Generate a configuration for a Cisco 2960 access switch, including access.
-2.2 switch ports, trunk ports, access vlans, management vlans,user credentials, enable ssh, set hostname as Access-Switch-2960.
+```
+Analyze the provided core_switch.txt. Generate a configuration for a Cisco 2960 access switch, including access.
+switch ports, trunk ports, access vlans, management vlans,user credentials, enable ssh, set hostname as Access-Switch-2960.
+```
 
 3. Database analysis or sql queries:
-3.1 Analyze the provided test_db.sql PostgreSQL script and list all tables defined inside it. 
-3.2 Requirements: 
-1. For each table, provide: -It's exact name. - A brief, 1-sentence description of its purpose in the buisness logic.
-2. Identify and highlight any indexes created in the script.
-3. Present your findings in a highly readable markdown format with tables or clear bullet points.
+```
+Analyze the provided test_db.sql PostgreSQL script and list all tables defined inside it. 
+Requirements: 
+For each table, provide: -It's exact name. - A brief, 1-sentence description of its purpose in the buisness logic.
+Identify and highlight any indexes created in the script.
+Present your findings in a highly readable markdown format with tables or clear bullet points.
+```
 
 4. !!!May not work properly currently!!!
 4.1 Test configuration in Docker(required Docker installed and running):
-1. Configure Nginx(8080) and test endpoints in Docker.
+```
+Configure Nginx(8080) and test endpoints in Docker.
+```
 
 
 5. Point it at your .txt, .cfg files, a Docker socket, or a local database and ask questions in plain English. 
