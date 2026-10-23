@@ -13,23 +13,23 @@ Download .exe file:
 https://github.com/Evgenii-lin/RoboAdmin-AI/releases
 
 via CMD:
-make folder RoboAdmin (for Example)
-git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
-cd RoboAdmin
-python-3.12 -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
+1. make folder RoboAdmin (for Example)
+2. git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
+3. cd RoboAdmin
+4. python-3.12 -m venv .venv
+5. .venv\Scripts\activate
+6. pip install -r requirements.txt
+7. python main.py
 
 # Linux / macOS
 bash:
-make folder RoboAdmin (for Example) 
-git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
-cd RoboAdmin
-python3.12 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python main.py
+1. make folder RoboAdmin (for Example) 
+2. git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
+3. cd RoboAdmin
+4. python3.12 -m venv .venv
+5. source .venv/bin/activate
+6. pip install -r requirements.txt
+7. python main.py
 
 
 ##System engineering/administration
@@ -46,30 +46,30 @@ Recommended model - Qwen2.5:14b or above. Install Ollama from official website.
 
 Three specialised agents collaborate under a manager:
 
-*System Engineer – service checks, Linux config generation, Dockerfiles.
-*Network Engineer – Network audits, config creating and parsing.
-*DBA Engineer – Schema inspection & read-only SQL queries.
+1. *System Engineer – service checks, Linux config generation, Dockerfiles.
+2. *Network Engineer – Network audits, config creating and parsing.
+3. *DBA Engineer – Schema inspection & read-only SQL queries.
 
 Some examples how to use:
 
 Server config:
-Generate a production-ready, secure Apache HTTP Server configuration file based on the parameters below.
+1. Generate a production-ready, secure Apache HTTP Server configuration file based on the parameters below.
 
-Network config based on a file(if exists):
-Analyze the provided core_switch.txt. Generate a configuration for a Cisco 2960 access switch, including access.
-switch ports, trunk ports, access vlans, management vlans,user credentials, enable ssh, set hostname as Access-Switch-2960.
+2. Network config based on a file(if exists):
+2.1 Analyze the provided core_switch.txt. Generate a configuration for a Cisco 2960 access switch, including access.
+2.2 switch ports, trunk ports, access vlans, management vlans,user credentials, enable ssh, set hostname as Access-Switch-2960.
 
-Database analysis or sql queries:
-Analyze the provided test_db.sql PostgreSQL script and list all tables defined inside it. 
-Requiremetns: 
+3. Database analysis or sql queries:
+3.1 Analyze the provided test_db.sql PostgreSQL script and list all tables defined inside it. 
+3.2 Requiremetns: 
 1. For each table, provide: -It's exact name. - A brief, 1-sentence description of its purpose in the buisness logic.
 2. Identify and highlight any indexes created in the script.
 3. Present your findings in a highly readable markdown format with tables or clear bullet points.
 
-!!!May not work properly currently!!!
-Test configuration in Docker(required Docker installed and running):
-Configure Nginx(8080) and test endpoints in Docker.
+4. !!!May not work properly currently!!!
+4.1 Test configuration in Docker(required Docker installed and running):
+1. Configure Nginx(8080) and test endpoints in Docker.
 
 
-Point it at your .txt, .cfg files, a Docker socket, or a local database and ask questions in plain English. 
-Everything executes locally via Ollama (Qwen 2.5 / Llama 3 / Mistral — your pick).
+5. Point it at your .txt, .cfg files, a Docker socket, or a local database and ask questions in plain English. 
+5.1 Everything executes locally via Ollama (Qwen 2.5 / Llama 3 / Mistral — your pick).
