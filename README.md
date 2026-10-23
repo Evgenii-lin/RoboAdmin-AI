@@ -12,7 +12,7 @@ To install:
 Download .exe file:
 https://github.com/Evgenii-lin/RoboAdmin-AI/releases
 
-'''cmd
+```cmd
 make folder RoboAdmin (for Example)
 git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
 cd RoboAdmin
@@ -20,10 +20,10 @@ python-3.12 -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
-'''
+```
 
 # Linux / macOS
-'''bash
+```bash
 make folder RoboAdmin (for Example) 
 git clone https://github.com/Evgenii-lin/RoboAdmin-AI.git RoboAdmin
 cd RoboAdmin
@@ -31,7 +31,7 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
-'''
+```
 
 
 ##System engineering/administration
