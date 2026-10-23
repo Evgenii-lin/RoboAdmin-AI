@@ -81,5 +81,6 @@ Configure Nginx(8080) and test endpoints in Docker.
 ```
 
 
-5. Point it at your .txt, .cfg files, a Docker socket, or a local database and ask questions in plain English. 
+5. Point it at your .txt, .cfg files, a Docker socket, or a local database and ask questions in plain English.
+    
 5.1 Everything executes locally via Ollama (Qwen 2.5 / Llama 3 / Mistral — your pick).
