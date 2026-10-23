@@ -50,8 +50,6 @@ python main.py
 ![DBA analysis](test_database.png)
 ![SQL Queries](test_sql_query.png)
 
-Recommended model - Qwen2.5:14b or above. Install Ollama from official website. 
-
 Three specialised agents collaborate under a manager:
 
 1. *System Engineer – service checks, Linux config generation, Dockerfiles.
