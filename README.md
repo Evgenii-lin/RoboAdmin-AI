@@ -7,6 +7,12 @@ Built with PySide6 + smolagents + Ollama.
 
 To install:
 
+Install Ollama from official website.  
+Recommended model - Qwen2.5:14b or above.
+```
+ollama pull qwen2.5:14b
+```
+
 # Windows
 
 Download .exe file:
